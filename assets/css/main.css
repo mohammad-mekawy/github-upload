@@ -150,6 +150,10 @@
     margin: 37px 0px 44px;
 }
 
+.right-part input[type="submit"]:hover {
+    background-color: #2787a7;
+}
+
 .right-part .fa-headset,
 .right-part .fa-question {
     margin-right: 5px;
