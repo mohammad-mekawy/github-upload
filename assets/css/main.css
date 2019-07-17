@@ -1,0 +1,213 @@
+.main-container {
+    background-image: url(../imgs/background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 10px 20px;
+    min-height: 300px;
+    overflow: auto;
+}
+
+@media (min-width: 992px) {
+    .main-container .container {
+        width: 950px;
+    }
+    .left-part {
+        height: 836px;
+    }
+}
+
+.left-part {
+    background-color: #f6f5fa;
+    padding: 50px 0px 0px 50px;
+}
+
+.left-part img {
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.right-part {
+    background-color: #fff;
+    color: #bbb;
+    padding: 70px 60px 20px;
+    font-size: 18px;
+    outline: 0px;
+}
+
+.Upper-part::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #bbb;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.Upper-part i {
+    color: #bbb !important;
+}
+
+.Upper-part .fa-sign-out-alt {
+    margin-left: 20px;
+}
+
+.Upper-part .fa-mobile-alt {
+    margin-right: 5px;
+}
+
+.right-part .head {
+    margin: 20px 0px 35px;
+}
+
+.right-part form {
+    width: 75%;
+}
+
+.right-part form h5 {
+    font-size: 14px;
+}
+
+.right-part input[type="text"] {
+    background: #f1f1f1;
+    padding: 15px 40px 10px 70px;
+    border: 2px solid #f6f5fa;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(204, 204, 204);
+}
+
+::-moz-placeholder {
+    color: rgb(204, 204, 204);
+}
+
+:-ms-input-placeholder {
+    color: rgb(204, 204, 204);
+}
+
+:-moz-placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.right-part .fa-user {
+    top: 44%;
+    left: 8%;
+}
+
+.right-part .fa-credit-card {
+    top: 41%;
+    left: 8%;
+}
+
+.right-part .fa-keyboard {
+    top: 41%;
+    right: 15px;
+}
+
+.right-part input.num {
+    width: 140px;
+    padding: 15px 30px 8px;
+}
+
+.right-part .fa-info-circle {
+    top: 15%;
+    left: 75%;
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+}
+
+.select-1,
+.select-2 {
+    width: 70px;
+    height: 54px;
+    background-color: #f6f5fa;
+    border: 2px solid #f6f5fa;
+    border-radius: 0px;
+    margin-right: 20px;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.select-2 {
+    width: 100px;
+}
+
+.form-control:focus {
+    border: 2px solid #a1c2fc;
+    border-radius: 3px;
+    box-shadow: 0 0 0 0;
+}
+
+.right-part input[type="submit"] {
+    background-color: #5dd4fb;
+    color: #fff;
+    border: 0px;
+    font-size: 20px;
+    padding: 13px 55px;
+    margin: 37px 0px 44px;
+}
+
+.right-part .fa-headset,
+.right-part .fa-question {
+    margin-right: 5px;
+}
+
+.right-part .down-part::after {
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #bbb;
+    height: 2px;
+}
+
+.right-part .cards {
+    margin: 20px 0px 20px;
+}
+
+.right-part .cards img {
+    width: 55px;
+}
+
+.copy-right {
+    color: #ababab;
+    margin-top: 80px;
+}
+
+.main-part i.fa-exclamation {
+    background: #f6f5fa;
+    color: #0c96ef;
+    padding: 25px;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 90px;
+    height: 90px;
+}
+
+.main-part .excla-border {
+    width: 110px;
+    height: 110px;
+    margin: 55px auto 20px;
+    border: 4px dotted #0c96ef;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.main-part p.lead {
+    margin: 10px auto 101px;
+}
+
+.main-part .h1,
+.main-part p.lead span {
+    color: #0c96ef;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
