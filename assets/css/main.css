@@ -148,6 +148,7 @@
     font-size: 20px;
     padding: 13px 55px;
     margin: 37px 0px 44px;
+    transition: 0.5s;
 }
 
 .right-part input[type="submit"]:hover {
